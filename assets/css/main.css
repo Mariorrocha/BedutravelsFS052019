@@ -16,6 +16,33 @@
     margin: 0px 0px 20px 0px;
 }
 
-a{
+.back{
+
+    background-image: url(../images/viajes.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+.search{
+
+    background-image: url(../images/search.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+   
     
 }
+
+input{
+
+    height: 30px;
+    width: 50%;
+    margin: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+      background-color: lightblue;
+    }
+  }
