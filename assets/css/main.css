@@ -33,6 +33,24 @@
    
     
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+  }
+
+  .images{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size: 30px;
+  }
+
 
 input{
 
@@ -41,8 +59,26 @@ input{
     margin: 200px;
 }
 
-@media only screen and (max-width: 400px) {
-    .navbar {
-      background-color: lightblue;
+@media only screen and (max-width: 600px) {
+    .images{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .images{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       
+
+    }
+
+    i{
+        padding-top: 40px;
     }
   }
